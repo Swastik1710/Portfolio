@@ -247,10 +247,10 @@ section .title::after {
 }
 .home .home-content .text-3 {
   font-size: 40px;
-  margin: 5px 0;
+  margin: 20px 0;
 }
 .home .home-content .text-3 span {
-  color: crimson;
+  color: cyan;
   font-weight: 500;
 }
 .home .home-content .text-4 {
@@ -371,6 +371,7 @@ section .title::after {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 .about .about-content .right .text span {
   color: crimson;
@@ -586,13 +587,13 @@ table {
   transition: all 0.3s ease;
 }
 @media (max-width: 599px) {
-  .projects .carousel .card {
+  .carousel .card {
     width: 60%;
     margin: auto;
   }
 }
 @media (max-width: 449px) {
-  .projects .carousel .card {
+  .carousel .card {
     width: 80%;
     margin: auto;
   }
@@ -733,9 +734,6 @@ table {
   color: crimson;
   transform: scale(1.1);
   transition: 0.3s;
-}
-.skills-icons {
-  text-align: center;
 }
 .skills-icons h5 {
   margin-top: 10px;
