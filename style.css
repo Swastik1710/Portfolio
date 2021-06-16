@@ -44,6 +44,7 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
+.education .edu-content,
 .projects .proj-content,
 .skills .skills-content,
 .contact .contact-content {
@@ -401,6 +402,21 @@ section .title::after {
   content: "where i've learnt";
 }
 
+.education .edu-content .left {
+  width: 45%;
+}
+.education .edu-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: crimson 0px 19px 58px, crimson 0px 15px 32px;
+}
+.education .edu-content .right {
+  width: 55%;
+  /* text-align: center; */
+}
+
 table,
 th,
 td {
@@ -418,10 +434,10 @@ td {
   text-align: center;
 }
 
-table {
+/* table {
   width: 60%;
   margin: 0 auto;
-}
+} */
 
 /* experiences section styling */
 .experiences .title::after {
@@ -926,6 +942,10 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .education .edu-content .left img {
+    height: 350px;
+    width: 350px;
+  }
   table {
     width: 70%;
   }
@@ -1011,6 +1031,17 @@ footer span a:hover {
   .skills .skills-content .right {
     flex: 100%;
   }
+  .education .edu-content .column {
+    width: 100%;
+  }
+  .education .edu-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .education .edu-content .right {
+    flex: 100%;
+  }
   /* .skills-icons {
     margin: 15px !important;
   } */
@@ -1065,6 +1096,10 @@ footer span a:hover {
     height: 300px;
     width: 300px;
   }
+  .education .edu-content .left img {
+    height: 300px;
+    width: 300px;
+  }
 
 }
 
@@ -1098,6 +1133,10 @@ footer span a:hover {
     width: 250px;
   }
   .skills .skills-content .left img {
+    height: 250px;
+    width: 250px;
+  }
+  .education .edu-content .left img {
     height: 250px;
     width: 250px;
   }
