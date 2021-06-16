@@ -727,6 +727,26 @@ table {
 .skills .title::after {
   content: "what i know";
 }
+.skills .skills-content .left {
+  width: 45%;
+}
+.skills .skills-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: crimson 0px 19px 58px, crimson 0px 15px 32px;
+}
+.skills .skills-content .right {
+  width: 55%;
+  text-align: center;
+}
+.skills .skills-content .right .skills-icons h5 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
 .skills .skills-content i{
   font-size: 50px;
 }
@@ -737,6 +757,11 @@ table {
 }
 .skills-icons h5 {
   margin-top: 10px;
+}
+.skills .skills-content .column .skills-icons {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
 }
 .skills-icons h5::after {
   content: '';
@@ -897,6 +922,10 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+  .skills .skills-content .left img {
+    height: 350px;
+    width: 350px;
+  }
   table {
     width: 70%;
   }
@@ -971,11 +1000,20 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
-  /* .projects .proj-content .card {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
+  .skills .skills-content .column {
+    width: 100%;
+  }
+  .skills .skills-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .skills .skills-content .right {
+    flex: 100%;
+  }
+  /* .skills-icons {
+    margin: 15px !important;
   } */
-  .skills .skills-content .column,
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
@@ -988,9 +1026,6 @@ footer span a:hover {
   }
   .skills .skills-content i{
     font-size: 45px;
-  }
-  .skills-icons {
-    margin: 30px;
   }
 }
 
@@ -1019,10 +1054,14 @@ footer span a:hover {
   .skills .skills-content i{
     font-size: 40px;
   }
-  .skills-icons {
-    margin: 30px;
-  }
+  /* .column .skills-icons {
+    margin-right: 100px;
+  } */
   .about .about-content .left img {
+    height: 300px;
+    width: 300px;
+  }
+  .skills .skills-content .left img {
     height: 300px;
     width: 300px;
   }
@@ -1055,6 +1094,10 @@ footer span a:hover {
     margin-left: 25px;
   }
   .about .about-content .left img {
+    height: 250px;
+    width: 250px;
+  }
+  .skills .skills-content .left img {
     height: 250px;
     width: 250px;
   }
