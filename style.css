@@ -808,6 +808,17 @@ td {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.contact .contact-img img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: crimson 0px 19px 58px, crimson 0px 15px 32px;
+  margin-bottom: 50px;
+}
+.contact-img {
+  text-align: center;
+}
 .contact .contact-content .left p {
   text-align: justify;
 }
@@ -819,6 +830,7 @@ td {
   border-radius: 20px;
   padding: 20px;
   background: white;
+  text-align: left;
 }
 .contact .contact-content .left .icons:hover {
   box-shadow: violet 0px 19px 38px, violet 0px 15px 12px;
@@ -906,7 +918,7 @@ td {
   margin: 30px auto;
 }
 
-.Sign img {
+.Sign .sign {
   width: 230px;
   height: 100px;
 }
@@ -943,6 +955,10 @@ footer span a:hover {
     width: 350px;
   }
   .education .edu-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+  .contact .contact-img img {
     height: 350px;
     width: 350px;
   }
@@ -1100,7 +1116,10 @@ footer span a:hover {
     height: 300px;
     width: 300px;
   }
-
+  .contact .contact-img img {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1137,6 +1156,10 @@ footer span a:hover {
     width: 250px;
   }
   .education .edu-content .left img {
+    height: 250px;
+    width: 250px;
+  }
+  .contact .contact-img img {
     height: 250px;
     width: 250px;
   }
