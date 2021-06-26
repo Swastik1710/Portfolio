@@ -355,16 +355,8 @@ section .title::after {
   content: "who I am";
 }
 .about .about-content .left {
-  width: 45%;
+  width: 40%;
 }
-.about .about-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: crimson 0px 19px 38px, crimson 0px 15px 12px;
-}
-
 .about .about-content .right {
   width: 55%;
 }
@@ -401,16 +393,8 @@ section .title::after {
 .education .title::after {
   content: "where i've learnt";
 }
-
 .education .edu-content .left {
-  width: 45%;
-}
-.education .edu-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: crimson 0px 19px 58px, crimson 0px 15px 32px;
+  width: 40%;
 }
 .education .edu-content .right {
   width: 55%;
@@ -744,14 +728,7 @@ td {
   content: "what i know";
 }
 .skills .skills-content .left {
-  width: 45%;
-}
-.skills .skills-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: crimson 0px 19px 58px, crimson 0px 15px 32px;
+  width: 40%;
 }
 .skills .skills-content .right {
   width: 55%;
@@ -946,22 +923,6 @@ footer span a:hover {
 }
 
 @media (max-width: 1104px) {
-  .about .about-content .left img {
-    height: 350px;
-    width: 350px;
-  }
-  .skills .skills-content .left img {
-    height: 350px;
-    width: 350px;
-  }
-  .education .edu-content .left img {
-    height: 350px;
-    width: 350px;
-  }
-  .contact .contact-img img {
-    height: 350px;
-    width: 350px;
-  }
   table {
     width: 70%;
   }
@@ -1031,7 +992,8 @@ footer span a:hover {
   .about .about-content .left {
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 auto;
+    width: 60%;
   }
   .about .about-content .right {
     flex: 100%;
@@ -1042,7 +1004,8 @@ footer span a:hover {
   .skills .skills-content .left {
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 auto;
+    width: 60%;
   }
   .skills .skills-content .right {
     flex: 100%;
@@ -1053,7 +1016,8 @@ footer span a:hover {
   .education .edu-content .left {
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 auto;
+    width: 60%;
   }
   .education .edu-content .right {
     flex: 100%;
@@ -1101,24 +1065,17 @@ footer span a:hover {
   .skills .skills-content i{
     font-size: 40px;
   }
-  /* .column .skills-icons {
-    margin-right: 100px;
-  } */
-  .about .about-content .left img {
-    height: 300px;
-    width: 300px;
+  .about .about-content .left {
+    width: 70%;
   }
-  .skills .skills-content .left img {
-    height: 300px;
-    width: 300px;
+  .skills .skills-content .left {
+    width: 70%;
   }
-  .education .edu-content .left img {
-    height: 300px;
-    width: 300px;
+  .education .edu-content .left {
+    width: 70%;
   }
   .contact .contact-img img {
-    height: 300px;
-    width: 300px;
+    
   }
 }
 
@@ -1147,21 +1104,17 @@ footer span a:hover {
   .contact .contact-content .row .info {
     margin-left: 25px;
   }
-  .about .about-content .left img {
-    height: 250px;
-    width: 250px;
+  .about .about-content .left {
+    width: 90%;
   }
-  .skills .skills-content .left img {
-    height: 250px;
-    width: 250px;
+  .skills .skills-content .left {
+    width: 90%;
   }
-  .education .edu-content .left img {
-    height: 250px;
-    width: 250px;
+  .education .edu-content .left {
+    width: 90%;
   }
   .contact .contact-img img {
-    height: 250px;
-    width: 250px;
+
   }
 }
 
@@ -1174,7 +1127,7 @@ footer span a:hover {
     margin-left: 15px;
   }
   .sub-title {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
