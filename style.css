@@ -613,12 +613,20 @@ td {
 }
 .projects .carousel .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight:500;
   margin: 10px 0 7px 0;
   color: #000;
 }
 .projects .carousel .card .text a {
   color: black;
+  padding: 2px;
+  animation: link1 1s linear infinite;
+}
+@keyframes link1 {
+  50% {
+    border: 5px solid crimson;
+    border-radius: 10px;
+  }
 }
 .projects .carousel .card .text a:hover {
   color: white;
@@ -688,6 +696,14 @@ td {
 }
 .contri_proj .carousel .card .text a {
   color: white;
+  padding: 2px;
+  animation: link2 1s linear infinite;
+}
+@keyframes link2 {
+  50% {
+    border: 5px solid crimson;
+    border-radius: 10px;
+  }
 }
 .contri_proj .carousel .card .text a:hover {
   color: black;
@@ -801,8 +817,6 @@ td {
 }
 .contact .contact-content .left .icons {
   margin: 10px 0;
-  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
   box-shadow: crimson 0px 19px 38px, crimson 0px 15px 12px;
   border-radius: 20px;
   padding: 20px;
@@ -1022,9 +1036,6 @@ footer span a:hover {
   .education .edu-content .right {
     flex: 100%;
   }
-  /* .skills-icons {
-    margin: 15px !important;
-  } */
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
@@ -1074,9 +1085,6 @@ footer span a:hover {
   .education .edu-content .left {
     width: 70%;
   }
-  .contact .contact-img img {
-    
-  }
 }
 
 @media (max-width: 500px) {
@@ -1112,9 +1120,6 @@ footer span a:hover {
   }
   .education .edu-content .left {
     width: 90%;
-  }
-  .contact .contact-img img {
-
   }
 }
 
