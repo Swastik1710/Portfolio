@@ -620,13 +620,6 @@ td {
 .projects .carousel .card .text a {
   color: black;
   padding: 2px;
-  animation: link1 1s linear infinite;
-}
-@keyframes link1 {
-  50% {
-    border: 5px solid crimson;
-    border-radius: 10px;
-  }
 }
 .projects .carousel .card .text a:hover {
   color: white;
@@ -697,14 +690,8 @@ td {
 .contri_proj .carousel .card .text a {
   color: white;
   padding: 2px;
-  animation: link2 1s linear infinite;
 }
-@keyframes link2 {
-  50% {
-    border: 5px solid crimson;
-    border-radius: 10px;
-  }
-}
+
 .contri_proj .carousel .card .text a:hover {
   color: black;
 }

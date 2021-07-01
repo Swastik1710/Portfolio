@@ -70,9 +70,6 @@ $(document).ready(function () {
         var heightThreshold1 = $(".about").offset().top;
         var heightThreshold2 = $(".education").offset().top;
         var heightThreshold3 = $(".skills").offset().top;
-        heightThreshold1-=400;
-        heightThreshold2-=400;
-        heightThreshold3-=400;
         var heightThreshold_end1  = $(".about").offset().top + $(".about").height()  ;
         var heightThreshold_end2  = $(".education").offset().top + $(".education").height()  ;
         var heightThreshold_end3  = $(".skills").offset().top + $(".skills").height()  ;
@@ -81,17 +78,17 @@ $(document).ready(function () {
             // console.log(heightThreshold1);
             // console.log(heightThreshold_end1);
             var scroll = $(window).scrollTop();
-            if (scroll >= heightThreshold1 && scroll <=  heightThreshold_end1 ) {
+            if (scroll >= heightThreshold1-400 && scroll <=  heightThreshold_end1 ) {
                 svg1.addClass('animated');
             } else {
                 svg1.removeClass('animated');
             }
-            if (scroll >= heightThreshold2 && scroll <=  heightThreshold_end2 ) {
+            if (scroll >= heightThreshold2-400 && scroll <=  heightThreshold_end2 ) {
                 svg2.addClass('animated');
             } else {
                 svg2.removeClass('animated');
             }
-            if (scroll >= heightThreshold3 && scroll <=  heightThreshold_end3 ) {
+            if (scroll >= heightThreshold3-400 && scroll <=  heightThreshold_end3 ) {
                 svg3.addClass('animated');
             } else {
                 svg3.removeClass('animated');
