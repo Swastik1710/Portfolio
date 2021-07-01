@@ -1234,5 +1234,5 @@ footer span a:hover {
 
 [data-scroll="out"] {
   opacity: 0;
-  transform: translateX(-500px);
+  transform: translateX(-300px);
 }
