@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
@@ -90,7 +91,7 @@
     </section>
 
     <!-- about section start -->
-    <section class="about" id="about">
+    <section class="about" id="about" data-scroll>
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
@@ -112,7 +113,7 @@
     </section>
 
     <!-- Education section start -->
-    <section class="education" id="education">
+    <section class="education" id="education" data-scroll>
         <div class="max-width">
             <h2 class="title">My Education</h2>
             <div class="edu-content">
@@ -146,7 +147,7 @@
     </section>
 
     <!-- Experiences section start -->
-    <section class="experiences" id="experiences">
+    <section class="experiences" id="experiences" data-scroll>
         <div class="max-width">
             <h2 class="title">My Experiences</h2>
             <!-- <div class="skills-content">
@@ -219,7 +220,7 @@
     </section>
 
     <!-- Projects section starts -->
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" data-scroll>
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
@@ -270,7 +271,7 @@
     </section>
 
     <!-- contributions section start -->
-    <section class="contri_proj" id="contri_proj">
+    <section class="contri_proj" id="contri_proj" data-scroll>
         <div class="max-width">
             <h2 class="title">My Contributions</h2>
             <div class="carousel owl-carousel">
@@ -319,7 +320,7 @@
     </section>
 
     <!-- skills section start -->
-    <section class="skills" id="skills">
+    <section class="skills" id="skills" data-scroll>
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
@@ -419,7 +420,7 @@
     </section>
 
     <!-- contact section start -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-scroll>
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <!-- <div class="contact-img">
@@ -529,6 +530,9 @@
         document.getElementById("skills").addEventListener('touchstart', function () {document.querySelector('.skl svg').classList.add('animated');})
         document.getElementById("skl").addEventListener('click', function () {document.querySelector('.skl svg').classList.add('animated');})
         // document.getElementById("about").addEventListener('mouseleave', function () {window.setTimeout(document.querySelector('svg').classList.remove('animated'),1000);})
+
+        ScrollOut();
+
     </script>
 </body>
 
