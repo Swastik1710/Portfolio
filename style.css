@@ -414,7 +414,7 @@ tr:hover td {
 th,
 td {
   font-size: 20px;
-  padding: 4px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -482,6 +482,7 @@ td {
 }
 .card__image {
   transition: 0.5s ease-in-out;
+  opacity: 0.7;
 }
 .card__caption {
   position: absolute;
@@ -510,10 +511,11 @@ td {
   font-family: "Playfair Display", serif;
   font-size: 26px;
   line-height: 28px;
-  text-shadow: 0px 1px 5px black;
+  /* text-shadow: 0px 1px 5px black; */
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  border: 2px solid crimson;
 }
 .card__snippet {
   color: #fff;
@@ -758,9 +760,33 @@ td {
   font-size: 50px;
 }
 .skills .skills-content .skills-icons:hover i {
-  color: crimson;
+  /* color: crimson; */
   transform: scale(1.1);
   transition: 0.3s;
+}
+.skills .skills-content .skills-icons:nth-child(1):hover i{
+  color: #e34c26;
+}
+.skills .skills-content .skills-icons:nth-child(2):hover i{
+  color: #68a063;
+}
+.skills .skills-content .skills-icons:nth-child(3):hover i{
+  color: #f34f29;
+}
+.skills .skills-content .skills-icons:nth-child(4):hover i{
+  color: #f0db4f;
+}
+.skills .skills-content .skills-icons:nth-child(5):hover i{
+  color: #cc3534;
+}
+.skills .skills-content .skills-icons:nth-child(6):hover i{
+  color: #563d7c;
+}
+.skills .skills-content .skills-icons:nth-child(7):hover i{
+  color: #2965f1;
+}
+.skills .skills-content .skills-icons:nth-child(8):hover i{
+  color: gray;
 }
 .skills-icons h5 {
   margin-top: 10px;
@@ -780,7 +806,32 @@ td {
 }
 .skills-icons:hover h5::after {
   width: 100%;
-  background: crimson;
+  /* background: crimson; */
+}
+
+.skills-icons:nth-child(1):hover h5::after {
+  background: #e34c26;
+}
+.skills-icons:nth-child(2):hover h5::after {
+  background: #68a063;
+}
+.skills-icons:nth-child(3):hover h5::after {
+  background: #f34f29;
+}
+.skills-icons:nth-child(4):hover h5::after {
+  background: #f0db4f;
+}
+.skills-icons:nth-child(5):hover h5::after {
+  background: #cc3534;
+}
+.skills-icons:nth-child(6):hover h5::after {
+  background: #563d7c;
+}
+.skills-icons:nth-child(7):hover h5::after {
+  background: #2965f1;
+}
+.skills-icons:nth-child(8):hover h5::after {
+  background: gray;
 }
 
 
@@ -821,9 +872,9 @@ td {
   background: white;
   text-align: left;
 }
-.contact .contact-content .left .icons:hover {
+/* .contact .contact-content .left .icons:hover {
   box-shadow: violet 0px 19px 38px, violet 0px 15px 12px;
-}
+} */
 .contact .contact-content .row {
   display: flex;
   height: 65px;
@@ -841,6 +892,12 @@ td {
 }
 .contact .contact-content .info .sub-title {
   color: #333;
+}
+.contact .contact-content .right {
+  box-shadow: crimson 0px 19px 38px, crimson 0px 15px 12px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid crimson;
 }
 .contact .right form .fields {
   display: flex;
