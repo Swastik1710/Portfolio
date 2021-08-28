@@ -506,10 +506,10 @@ td {
   border-radius: 10px;
   letter-spacing: 3px;
   display: -webkit-box;
-  max-height: 85px;
+  max-height: 88px;
   overflow: hidden;
   font-family: "Playfair Display", serif;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 28px;
   /* text-shadow: 0px 1px 5px black; */
   text-overflow: ellipsis;
@@ -775,7 +775,7 @@ td {
   color: #68a063;
 }
 .skills .skills-content .skills-icons:nth-child(3){
-  color: #f34f29;
+  color: #2965f1;
 }
 .skills .skills-content .skills-icons:nth-child(4){
   color: #f0db4f;
@@ -787,10 +787,7 @@ td {
   color: #563d7c;
 }
 .skills .skills-content .skills-icons:nth-child(7){
-  color: #2965f1;
-}
-.skills .skills-content .skills-icons:nth-child(8){
-  color: gray;
+  color: #f34f29;
 }
 .skills-icons h5 {
   margin-top: 10px;
@@ -819,7 +816,7 @@ td {
   background: #68a063;
 }
 .skills-icons:nth-child(3):hover h5::after {
-  background: #f34f29;
+  background: #2965f1;
 }
 .skills-icons:nth-child(4):hover h5::after {
   background: #f0db4f;
@@ -831,16 +828,13 @@ td {
   background: #563d7c;
 }
 .skills-icons:nth-child(7):hover h5::after {
-  background: #2965f1;
+  background: #f34f29;
 }
 .skills-icons:nth-child(8):hover h5::after {
-  background: gray;
-}
-.skills-icons:nth-child(9):hover h5::after {
   background: deepskyblue;
 }
-.skills-icons:nth-child(10):hover h5::after {
-  background: #2965f1;
+.skills-icons:nth-child(9):hover h5::after {
+  background: #00ffd5;
 }
 
 
