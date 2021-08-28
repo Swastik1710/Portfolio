@@ -88,7 +88,7 @@ section .title::after {
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 30px 0;
+  padding: 15px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
@@ -755,37 +755,41 @@ td {
   font-weight: 600;
   margin-top: 10px;
   letter-spacing: 2px;
+  color: #fff;
 }
 .skills .skills-content i{
   font-size: 50px;
 }
 .skills .skills-content .skills-icons:hover i {
-  /* color: crimson; */
   transform: scale(1.1);
   transition: 0.3s;
 }
-.skills .skills-content .skills-icons:nth-child(1):hover i{
+.skills .skills-content .skills-icons:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.skills .skills-content .skills-icons:nth-child(1){
   color: #e34c26;
 }
-.skills .skills-content .skills-icons:nth-child(2):hover i{
+.skills .skills-content .skills-icons:nth-child(2){
   color: #68a063;
 }
-.skills .skills-content .skills-icons:nth-child(3):hover i{
+.skills .skills-content .skills-icons:nth-child(3){
   color: #f34f29;
 }
-.skills .skills-content .skills-icons:nth-child(4):hover i{
+.skills .skills-content .skills-icons:nth-child(4){
   color: #f0db4f;
 }
-.skills .skills-content .skills-icons:nth-child(5):hover i{
+.skills .skills-content .skills-icons:nth-child(5){
   color: #cc3534;
 }
-.skills .skills-content .skills-icons:nth-child(6):hover i{
+.skills .skills-content .skills-icons:nth-child(6){
   color: #563d7c;
 }
-.skills .skills-content .skills-icons:nth-child(7):hover i{
+.skills .skills-content .skills-icons:nth-child(7){
   color: #2965f1;
 }
-.skills .skills-content .skills-icons:nth-child(8):hover i{
+.skills .skills-content .skills-icons:nth-child(8){
   color: gray;
 }
 .skills-icons h5 {
@@ -806,7 +810,6 @@ td {
 }
 .skills-icons:hover h5::after {
   width: 100%;
-  /* background: crimson; */
 }
 
 .skills-icons:nth-child(1):hover h5::after {
@@ -833,6 +836,13 @@ td {
 .skills-icons:nth-child(8):hover h5::after {
   background: gray;
 }
+.skills-icons:nth-child(9):hover h5::after {
+  background: deepskyblue;
+}
+.skills-icons:nth-child(10):hover h5::after {
+  background: #2965f1;
+}
+
 
 
 /* contact section styling */
@@ -1148,6 +1158,10 @@ footer span a:hover {
   }
   .home .home-content .text-3 {
     font-size: 27px;
+    height: 62px;
+  }
+  .about .about-content .right .text{
+    height: 114px;
   }
   .contact .right form .fields {
     flex-direction: column;
@@ -1188,6 +1202,12 @@ footer span a:hover {
   }
   .sub-title {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 326px) {
+  .navbar .logo a{
+    font-size: 30px;
   }
 }
 
