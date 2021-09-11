@@ -331,7 +331,7 @@ section .title::after {
   transform: scale(1.05);
 }
 .icons1 li:nth-child(2).fill-back:hover {
-  background-color: orangered;
+  background-color: #e1306c;
   transform: scale(1.05);
 }
 .icons1 li:nth-child(3).fill-back:hover {
