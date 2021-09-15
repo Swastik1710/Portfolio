@@ -877,9 +877,6 @@ td {
   background: white;
   text-align: left;
 }
-/* .contact .contact-content .left .icons:hover {
-  box-shadow: violet 0px 19px 38px, violet 0px 15px 12px;
-} */
 .contact .contact-content .row {
   display: flex;
   height: 65px;
@@ -898,7 +895,7 @@ td {
 .contact .contact-content .info .sub-title {
   color: #333;
 }
-.contact .contact-content .right {
+.contact .contact-content .right .form {
   box-shadow: crimson 0px 19px 38px, crimson 0px 15px 12px;
   padding: 30px;
   border-radius: 20px;
@@ -967,6 +964,7 @@ td {
 
 .Sign {
   margin: 30px auto;
+  text-align: center;
 }
 
 .Sign .sign {
