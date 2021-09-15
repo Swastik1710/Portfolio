@@ -355,16 +355,17 @@ section .title::after {
   content: "who I am";
 }
 .about .about-content .left {
-  width: 40%;
+  width: 45%;
 }
 .about .about-content .right {
-  width: 55%;
+  width: 50%;
 }
 .about .about-content .right .text {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  height: 70px;
 }
 .about .about-content .right .text span {
   color: crimson;
@@ -394,10 +395,10 @@ section .title::after {
   content: "where i've learnt";
 }
 .education .edu-content .left {
-  width: 40%;
+  width: 45%;
 }
 .education .edu-content .right {
-  width: 55%;
+  width: 50%;
   /* text-align: center; */
 }
 
@@ -665,7 +666,7 @@ td {
 
 /* contri_proj section styling */
 .contri_proj .title::after {
-  content: "whom i've helped";
+  content: "what i've done";
 }
 .contri_proj .carousel .card {
   background: #000;
@@ -744,10 +745,10 @@ td {
   content: "what i know";
 }
 .skills .skills-content .left {
-  width: 40%;
+  width: 45%;
 }
 .skills .skills-content .right {
-  width: 55%;
+  width: 50%;
   text-align: center;
 }
 .skills .skills-content .right .skills-icons h5 {
@@ -1066,7 +1067,10 @@ footer span a:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 65%;
+  }
+  .about .about-content .right .text{
+    height: 30px;
   }
   .about .about-content .right {
     flex: 100%;
@@ -1078,7 +1082,7 @@ footer span a:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 65%;
   }
   .skills .skills-content .right {
     flex: 100%;
@@ -1090,7 +1094,7 @@ footer span a:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 65%;
   }
   .education .edu-content .right {
     flex: 100%;
@@ -1136,13 +1140,16 @@ footer span a:hover {
     font-size: 40px;
   }
   .about .about-content .left {
-    width: 70%;
+    width: 85%;
+  }
+  .about .about-content .right .text{
+    height: 70px;
   }
   .skills .skills-content .left {
-    width: 70%;
+    width: 85%;
   }
   .education .edu-content .left {
-    width: 70%;
+    width: 85%;
   }
 }
 
@@ -1153,9 +1160,6 @@ footer span a:hover {
   .home .home-content .text-3 {
     font-size: 27px;
     height: 62px;
-  }
-  .about .about-content .right .text{
-    height: 114px;
   }
   .contact .right form .fields {
     flex-direction: column;
@@ -1176,13 +1180,13 @@ footer span a:hover {
     margin-left: 25px;
   }
   .about .about-content .left {
-    width: 90%;
+    width: 100%;
   }
   .skills .skills-content .left {
-    width: 90%;
+    width: 100%;
   }
   .education .edu-content .left {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -1197,88 +1201,14 @@ footer span a:hover {
   .sub-title {
     font-size: 12px;
   }
+  .about .about-content .right .text{
+    height: 114px;
+  }
 }
 
 @media (max-width: 326px) {
   .navbar .logo a{
     font-size: 30px;
-  }
-}
-
-/* LOADER STYLES */
-
-#load {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #001d10;
-  animation: animateBackgroundColor 10s linear infinite;
-}
-
-@keyframes animateBackgroundColor {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
-}
-
-.loading {
-  position: relative;
-  width: 250px;
-  height: 250px;
-}
-
-.loading .blocks {
-  position: absolute;
-  width: 8px;
-  height: 25px;
-  background: #050c09;
-  left: 50%;
-  border-radius: 8px;
-  transform: rotate(calc(18deg * var(--i)));
-  transform-origin: 0 125px;
-  animation: animater 2s ease-in-out infinite;
-  animation-delay: calc(0.05s * var(--i));
-}
-
-@keyframes animater {
-  0%,
-  50% {
-    background: #050c09;
-    box-shadow: none;
-  }
-  50.1%,
-  100% {
-    background: #0f0;
-    box-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 30px #0f0, 0 0 60px #0f0,
-      0 0 90px #0f0;
-  }
-}
-
-.loading h3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2em;
-  letter-spacing: 2px;
-  animation: animateText 2s ease-in-out infinite;
-  /* animation-delay: -1s; */
-}
-
-@keyframes animateText {
-  0%,
-  50% {
-    color: white;
-    text-shadow: none;
-  }
-  50.1%,
-  100% {
-    color: #0f0;
-    text-shadow: 0 0 5px #0f0, 0 0 15px #0f0;
   }
 }
 
