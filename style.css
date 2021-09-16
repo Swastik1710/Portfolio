@@ -900,6 +900,7 @@ td {
   padding: 30px;
   border-radius: 20px;
   border: 1px solid crimson;
+  margin-bottom: 15px;
 }
 .contact .right form .fields {
   display: flex;
@@ -962,6 +963,10 @@ td {
   background: none;
 }
 
+.cont-lottie {
+  margin-bottom: 100px;
+}
+
 .Sign {
   margin: 30px auto;
   text-align: center;
@@ -1019,6 +1024,12 @@ footer span a:hover {
   }
   .menu-btn i.active:before {
     content: "\f00d";
+  }
+  #about .title, #contact .title {
+    margin-bottom: 30px !important;
+  }
+  #skills .title, #education .title {
+    margin-bottom: -20px !important;
   }
   .navbar .menu {
     position: fixed;
@@ -1109,6 +1120,9 @@ footer span a:hover {
   }
   .skills .skills-content i{
     font-size: 45px;
+  }
+  .cont-lottie {
+    margin-bottom: 10px;
   }
 }
 
