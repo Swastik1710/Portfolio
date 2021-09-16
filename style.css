@@ -450,28 +450,6 @@ section .title::after {
 	width: 70%;
 }
 
-/* table,
-th,
-td {
-  border: 1px solid crimson;
-}
-
-tr:hover td {
-  background-color: crimson;
-}
-
-th,
-td {
-  font-size: 20px;
-  padding: 8px;
-  text-align: center;
-} */
-
-/* table {
-  width: 60%;
-  margin: 0 auto;
-} */
-
 /* experiences section styling */
 .experiences .title::after {
   content: "what i've done";
@@ -637,6 +615,9 @@ td {
   overflow: hidden;
   transition: all 0.3s ease;
 }
+.stack {
+  /* text-align: start !important; */
+}
 @media (max-width: 599px) {
   .carousel .card {
     width: 60%;
@@ -688,6 +669,13 @@ td {
 }
 .projects .card:hover i {
   color: #000;
+}
+.projects .card p {
+  border-bottom: 2px solid crimson;
+  margin-bottom: 10px;
+}
+.projects .card:hover p {
+  border-bottom-color:  black;
 }
 .owl-dots {
   text-align: center;
@@ -764,6 +752,13 @@ td {
 }
 .contri_proj .card:hover i {
   color: #fff;
+}
+.contri_proj .card p {
+  margin-bottom: 10px;
+  border-bottom: 2px solid crimson;
+}
+.contri_proj .card:hover p {
+  border-bottom-color:  white;
 }
 .owl-dots {
   text-align: center;
@@ -1182,9 +1177,6 @@ footer span a:hover {
     font-size: 20px;
   }
   .projects .proj-content .card {
-    width: 100%;
-  }
-  table {
     width: 100%;
   }
   .Sign {
