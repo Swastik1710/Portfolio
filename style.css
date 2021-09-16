@@ -405,7 +405,7 @@ section .title::after {
 
 .edu-card {
 	border-radius: 10px;
-	box-shadow: -5px -5px 10px;
+	/* box-shadow: 3px 3px 5px 6px #ccc; */
 	display: flex;
 	max-width: 100%;
 	margin: 20px 0;
@@ -614,9 +614,6 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
-}
-.stack {
-  /* text-align: start !important; */
 }
 @media (max-width: 599px) {
   .carousel .card {

@@ -67,11 +67,11 @@
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
-            <div class="about-content" data-scroll>
-                <div class="column left abt">
+            <div class="about-content">
+                <div class="column left abt" data-scroll>
                     <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_NmBGIS.json"  background="transparent" style="height: 400px;" speed="1" loop  autoplay></lottie-player>
                 </div>
-                <div class="column right">
+                <div class="column right" data-scroll>
                     <div class="text">I'm Swastik and I'm a <span class="typing-2"></span></div>
                     <p>I am a passionate <strong>Web Developer</strong> and an <strong>Open Source Contributor</strong>
                         based out of <strong>India</strong>. I build interactive websites that run across platforms and
@@ -88,36 +88,36 @@
     <section class="education" id="education">
         <div class="max-width">
             <h2 class="title">My Education</h2>
-            <div class="edu-content" data-scroll>
-                <div class="column left edu">
+            <div class="edu-content">
+                <div class="column left edu" data-scroll>
                     <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_K7aZUG.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                 </div>
                 <div class="column right">
-                    <div class="edu-card">
-                            <div class="degree">
-                                <h2>Graduation</h2>
-                            </div>
-                            <div class="degree-info">
-                                <h3>CMR Institue of Technology, Bangalore<br>B-tech, Information Science and
-                                    Engineering<br>2019-2023
-                                </h3>
-                            </div>
+                    <div class="edu-card" data-scroll>
+                        <div class="degree">
+                            <h2>Graduation</h2>
+                        </div>
+                        <div class="degree-info">
+                            <h3>CMR Institue of Technology, Bangalore<br>B-tech, Information Science and
+                                Engineering<br>2019-2023
+                            </h3>
+                        </div>
                     </div>
-                    <div class="edu-card">
-                            <div class="degree">
-                                <h2>High School</h2>
-                            </div>
-                            <div class="degree-info">
-                                <h3>Rajendra Vidyalaya, Jamshedpur<br>Computer Science<br>2017-2019</h3>
-                            </div>
+                    <div class="edu-card" data-scroll>
+                        <div class="degree">
+                            <h2>High School</h2>
+                        </div>
+                        <div class="degree-info">
+                            <h3>Rajendra Vidyalaya, Jamshedpur<br>Computer Science<br>2017-2019</h3>
+                        </div>
                     </div>
-                    <div class="edu-card">
-                            <div class="degree">
-                                <h2>Elementary School</h2>
-                            </div>
-                            <div class="degree-info">
-                                <h3>Rajendra Vidyalaya, Jamshedpur<br>2004-2017</h3>
-                            </div>
+                    <div class="edu-card" data-scroll>
+                        <div class="degree">
+                            <h2>Elementary School</h2>
+                        </div>
+                        <div class="degree-info">
+                            <h3>Rajendra Vidyalaya, Jamshedpur<br>2004-2017</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,21 +128,8 @@
     <section class="experiences" id="experiences">
         <div class="max-width">
             <h2 class="title">My Experiences</h2>
-            <div class="expr-content" data-scroll>
-                <div class="card">
-                    <figure class="card__thumb">
-                        <img src="./images/gc.jpg" height="410" width="300" alt="30 days of Google Cloud"
-                            class="card__image">
-                        <figcaption class="card__caption">
-                            <h2 class="card__title">30 Days of Google Cloud Program</h2>
-                            <p class="card__snippet">30 Days of Google Cloud is a month long program which provides you
-                                an opportunity to kickstart your career in cloud...</p>
-                            <a href="https://events.withgoogle.com/30daysofgooglecloud/" class="card__button">Certificate</a>
-                        </figcaption>
-                    </figure>
-                </div>
-
-                <div class="card">
+            <div class="expr-content">
+                <div class="card" data-scroll>
                     <figure class="card__thumb">
                         <img src="./images/dcp.png" height="410" width="300" alt="Hacktoberfest 2020"
                             class="card__image">
@@ -153,8 +140,7 @@
                         </figcaption>
                     </figure>
                 </div>
-
-                <div class="card">
+                <div class="card" data-scroll>
                     <figure class="card__thumb">
                         <img src="./images/dwoc.jpg" height="410" width="300" alt="Devscript Winter of Code 2020"
                             class="card__image">
@@ -163,6 +149,18 @@
                             <p class="card__snippet">DevScript Winter Of Code is an Open Source program envisioned by
                                 DevScript that helps understand the paradigm of Open Source contribution...</p>
                             <a href="https://devscript.tech/woc/" class="card__button">Certificate</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card" data-scroll>
+                    <figure class="card__thumb">
+                        <img src="./images/gc.jpg" height="410" width="300" alt="30 days of Google Cloud"
+                            class="card__image">
+                        <figcaption class="card__caption">
+                            <h2 class="card__title">30 Days of Google Cloud Program</h2>
+                            <p class="card__snippet">30 Days of Google Cloud is a month long program which provides you
+                                an opportunity to kickstart your career in cloud...</p>
+                            <a href="https://events.withgoogle.com/30daysofgooglecloud/" class="card__button">Certificate</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -269,7 +267,6 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-play-circle"></i>
-                        <!-- <img src="images/profile-1.jpeg" alt=""> -->
                         <div class="text"><a href="https://github.com/Q-Stream/Q-Stream">Q-Stream</a></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="stack">
@@ -280,7 +277,6 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-users"></i>
-                        <!-- <img src="images/profile-2.jpeg" alt=""> -->
                         <div class="text"><a href="https://hitk-tech-community.netlify.app/">HITK Community</a></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="stack">
@@ -296,11 +292,11 @@
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
-            <div class="skills-content" data-scroll>
-                <div class="column left skl">
+            <div class="skills-content">
+                <div class="column left skl" data-scroll>
                     <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_vo0a1yca.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                 </div>
-                <div class="column right">
+                <div class="column right" data-scroll>
                     <div class="skills-icons">
                         <i class="fab fa-html5"></i>
                         <h5>HTML 5</h5>
@@ -349,12 +345,12 @@
             <!-- <div class="contact-img">
                 <img src="./images/contact.jpg">
             </div> -->
-            <div class="contact-content" data-scroll>
+            <div class="contact-content">
                 <div class="column left">
-                    <div class="cont-lottie">
+                    <div class="cont-lottie" data-scroll>
                         <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_dvubonmx.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
                     </div>
-                    <div class="card">
+                    <div class="card" data-scroll>
                         <div class="text">Connect with Me</div>
                         <div class="icons">
                             <div class="row">
@@ -391,7 +387,7 @@
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="form">
+                    <div class="form" data-scroll>
                         <div class="text">Leave a Message</div>
                         <form action="https://formspree.io/f/xzbyebnk" method="POST">
                             <div class="fields">
@@ -413,7 +409,7 @@
                             </div>
                         </form>
                     </div>
-                    <div>
+                    <div data-scroll>
                         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_i7xriqc6.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
                     </div>
                 </div>
