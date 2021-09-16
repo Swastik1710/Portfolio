@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  /* overflow-x: hidden; */
 }
 html {
   scroll-behavior: smooth;
@@ -399,10 +400,57 @@ section .title::after {
 }
 .education .edu-content .right {
   width: 50%;
-  /* text-align: center; */
+  text-align: center;
 }
 
-table,
+.edu-card {
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px;
+	display: flex;
+	max-width: 100%;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.edu-card:hover .degree{
+  transition: 0.6s all;
+  background-color: white;
+  color: crimson;
+}
+
+.edu-card:hover .degree-info{
+  background-color: crimson;
+  color: white;
+}
+
+.edu-card:hover h3{
+  color: white;
+}
+
+.degree h2 {
+  display: table-cell;
+  vertical-align: middle;
+	letter-spacing: 2px;
+}
+
+.degree {
+	background-color: crimson;
+	color: #fff;
+	padding: 20px 10px;
+	max-width: 250px;
+  width: 40%;
+  display: table;
+}
+
+.degree-info {
+  background-color: white;
+  color: crimson;
+	padding: 20px 10px;
+	position: relative;
+	width: 70%;
+}
+
+/* table,
 th,
 td {
   border: 1px solid crimson;
@@ -417,7 +465,7 @@ td {
   font-size: 20px;
   padding: 8px;
   text-align: center;
-}
+} */
 
 /* table {
   width: 60%;
@@ -964,7 +1012,7 @@ td {
 }
 
 .cont-lottie {
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .Sign {
@@ -1000,17 +1048,11 @@ footer span a:hover {
 }
 
 @media (max-width: 1104px) {
-  table {
-    width: 70%;
-  }
 }
 
 @media (max-width: 991px) {
   .max-width {
     padding: 0 30px;
-  }
-  table {
-    width: 80%;
   }
 }
 @media (max-width: 947px) {
@@ -1108,12 +1150,12 @@ footer span a:hover {
   .education .edu-content .right {
     flex: 100%;
   }
+  .edu-card {
+    margin: 20px 10px;
+  }
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
-  }
-  table {
-    width: 95%;
   }
   .Sign {
     margin-top: -30px;
@@ -1200,6 +1242,19 @@ footer span a:hover {
   .education .edu-content .left {
     width: 100%;
   }
+  .edu-card {
+    margin: 20px 5px;
+  }
+  .degree {
+    padding: 5px;
+    width: 50%;
+  }
+  .degree h2 {
+    font-size: 21px;
+  }
+  .degree-info h3{
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 388px) {
@@ -1216,11 +1271,34 @@ footer span a:hover {
   .about .about-content .right .text{
     height: 114px;
   }
+  edu-card {
+    margin: 20px 0px;
+  }
+  .degree {
+    padding: 0 2px;
+    width: 60%;
+  }
+  .degree h2 {
+    font-size: 20px;
+  }
+  .degree-info h3{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 326px) {
   .navbar .logo a{
     font-size: 30px;
+  }
+  .degree {
+    padding: 0 2px;
+    width: 60%;
+  }
+  .degree h2 {
+    font-size: 18px;
+  }
+  .degree-info h3{
+    font-size: 14px;
   }
 }
 
