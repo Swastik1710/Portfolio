@@ -603,9 +603,6 @@ section .title::after {
 .projects .title::after {
   content: "what i've built";
 }
-.projects .carousel .card:hover .box {
-  transform: scale(1.05);
-}
 .projects .carousel .card {
   background: #fff;
   color: #000;
@@ -623,38 +620,47 @@ section .title::after {
 }
 @media (max-width: 999px) {
   .projects .carousel .card {
-    min-height: 242px;
-  }
-}
-@media (max-width: 865px) {
-  .projects .carousel .card {
     min-height: 267px;
   }
 }
-@media (max-width: 735px) {
+@media (max-width: 747px) {
   .projects .carousel .card {
     min-height: 292px;
   }
 }
 @media (max-width: 614px) {
   .projects .carousel .card {
-    min-height: 342px;
+    min-height: 317px;
+  }
+}
+@media (max-width: 599px) {
+  .projects .carousel .card {
+    min-height: 292px;
   }
 }
 @media (max-width: 503px) {
   .projects .carousel .card {
-    min-height: 242px;
+    min-height: 317px;
   }
 }
 @media (max-width: 463px) {
   .projects .carousel .card {
-    min-height: 292px;
     padding: 25px 15px;
+  }
+}
+@media (max-width: 406px) {
+  .projects .carousel .card {
+    min-height: 292px;
   }
 }
 @media (max-width: 376px) {
   .projects .carousel .card {
-    min-height: 342px;
+    min-height: 317px;
+  }
+}
+@media (max-width: 315px) {
+  .projects .carousel .card {
+    min-height: 352px;
   }
 }
 
@@ -664,7 +670,7 @@ section .title::after {
     margin: auto;
   }
 }
-@media (max-width: 503px) {
+@media (max-width: 406px) {
   .carousel .card {
     width: 80%;
     margin: auto;
@@ -753,6 +759,14 @@ section .title::after {
   overflow: hidden;
   transition: all 0.3s ease;
   min-height: 267px;
+  position: relative;
+}
+.stack {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
 }
 @media (max-width: 1043px) {
   .contri_proj .carousel .card {
@@ -780,19 +794,34 @@ section .title::after {
     padding: 25px 15px !important;
   }
 }
-@media (max-width: 405px) {
+@media (max-width: 520px) {
   .contri_proj .carousel .card {
     min-height: 292px !important;
   }
 }
-@media (max-width: 351px) {
+@media (max-width: 453px) {
+  .contri_proj .carousel .card {
+    min-height: 305px !important;
+  }
+}
+@media (max-width: 439px) {
   .contri_proj .carousel .card {
     min-height: 330px !important;
   }
 }
-@media (max-width: 331px) {
+@media (max-width: 406px) {
   .contri_proj .carousel .card {
-    min-height: 367px !important;
+    min-height: 242px !important;
+  }
+}
+@media (max-width: 401px) {
+  .contri_proj .carousel .card {
+    min-height: 292px !important;
+  }
+}
+@media (max-width: 341px) {
+  .contri_proj .carousel .card {
+    min-height: 330px !important;
   }
 }
 .contri_proj .carousel .card:hover {
