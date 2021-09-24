@@ -610,18 +610,61 @@ section .title::after {
   background: #fff;
   color: #000;
   border-radius: 6px;
-  padding: 25px 35px;
+  padding: 25px 20px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  min-height: 267px;
 }
+@media (max-width: 1161px) {
+  .projects .carousel .card {
+    min-height: 292px;
+  }
+}
+@media (max-width: 999px) {
+  .projects .carousel .card {
+    min-height: 242px;
+  }
+}
+@media (max-width: 865px) {
+  .projects .carousel .card {
+    min-height: 267px;
+  }
+}
+@media (max-width: 735px) {
+  .projects .carousel .card {
+    min-height: 292px;
+  }
+}
+@media (max-width: 614px) {
+  .projects .carousel .card {
+    min-height: 342px;
+  }
+}
+@media (max-width: 503px) {
+  .projects .carousel .card {
+    min-height: 242px;
+  }
+}
+@media (max-width: 463px) {
+  .projects .carousel .card {
+    min-height: 292px;
+    padding: 25px 15px;
+  }
+}
+@media (max-width: 376px) {
+  .projects .carousel .card {
+    min-height: 342px;
+  }
+}
+
 @media (max-width: 599px) {
   .carousel .card {
     width: 60%;
     margin: auto;
   }
 }
-@media (max-width: 449px) {
+@media (max-width: 503px) {
   .carousel .card {
     width: 80%;
     margin: auto;
@@ -705,10 +748,52 @@ section .title::after {
   background: #000;
   color: white;
   border-radius: 6px;
-  padding: 25px 35px;
+  padding: 25px 20px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
+  min-height: 267px;
+}
+@media (max-width: 1043px) {
+  .contri_proj .carousel .card {
+    min-height: 292px !important;
+  }
+}
+@media (max-width: 999px) {
+  .contri_proj .carousel .card {
+    min-height: 242px !important;
+  }
+}
+@media (max-width: 884px) {
+  .contri_proj .carousel .card {
+    min-height: 267px !important;
+  }
+}
+@media (max-width: 661px) {
+  .contri_proj .carousel .card {
+    min-height: 292px !important;
+  }
+}
+@media (max-width: 599px) {
+  .contri_proj .carousel .card {
+    min-height: 267px !important;
+    padding: 25px 15px !important;
+  }
+}
+@media (max-width: 405px) {
+  .contri_proj .carousel .card {
+    min-height: 292px !important;
+  }
+}
+@media (max-width: 351px) {
+  .contri_proj .carousel .card {
+    min-height: 330px !important;
+  }
+}
+@media (max-width: 331px) {
+  .contri_proj .carousel .card {
+    min-height: 367px !important;
+  }
 }
 .contri_proj .carousel .card:hover {
   background: crimson;
