@@ -927,23 +927,25 @@ section .title::after {
   color: #e34c26;
 }
 .skills .skills-content .skills-icons:nth-child(2){
-  color: #68a063;
-}
-.skills .skills-content .skills-icons:nth-child(3){
   color: #2965f1;
 }
-.skills .skills-content .skills-icons:nth-child(4){
+.skills .skills-content .skills-icons:nth-child(3){
   color: #f0db4f;
 }
 .skills .skills-content .skills-icons:nth-child(5){
-  color: #cc3534;
-}
-.skills .skills-content .skills-icons:nth-child(6){
   color: #563d7c;
 }
-.skills .skills-content .skills-icons:nth-child(7){
+.skills .skills-content .skills-icons:nth-child(6){
   color: #f34f29;
 }
+.skills .skills-content .skills-icons:nth-child(7){
+  color: #61dbfb;
+}
+.skills .skills-content .skills-icons:nth-child(8){
+  color: #68a063;
+}
+
+
 .skills-icons h5 {
   margin-top: 10px;
 }
@@ -968,30 +970,35 @@ section .title::after {
   background: #e34c26;
 }
 .skills-icons:nth-child(2):hover h5::after {
-  background: #68a063;
-}
-.skills-icons:nth-child(3):hover h5::after {
   background: #2965f1;
 }
-.skills-icons:nth-child(4):hover h5::after {
+.skills-icons:nth-child(3):hover h5::after {
   background: #f0db4f;
 }
-.skills-icons:nth-child(5):hover h5::after {
-  background: #cc3534;
+.skills-icons:nth-child(4):hover h5::after {
+  background: #0868AC;
 }
-.skills-icons:nth-child(6):hover h5::after {
+.skills-icons:nth-child(5):hover h5::after {
   background: #563d7c;
 }
-.skills-icons:nth-child(7):hover h5::after {
+.skills-icons:nth-child(6):hover h5::after {
   background: #f34f29;
 }
+.skills-icons:nth-child(7):hover h5::after {
+  background: #61dbfb;
+}
 .skills-icons:nth-child(8):hover h5::after {
-  background: deepskyblue;
+  background: #68a063;
 }
 .skills-icons:nth-child(9):hover h5::after {
+  background: #f29111;
+}
+.skills-icons:nth-child(10):hover h5::after {
+  background: deepskyblue;
+}
+.skills-icons:nth-child(11):hover h5::after {
   background: #00ffd5;
 }
-
 
 
 /* contact section styling */
@@ -1388,7 +1395,11 @@ footer span a:hover {
     font-size: 16px;
   }
 }
-
+@media (max-width: 361px) {
+  .skills .skills-content .column .skills-icons {
+    width: 30%;
+  } 
+}
 @media (max-width: 326px) {
   .navbar .logo a{
     font-size: 30px;
