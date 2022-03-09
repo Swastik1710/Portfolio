@@ -611,7 +611,7 @@ section .title::after {
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
-  min-height: 267px;
+  min-height: 297px;
 }
 @media (max-width: 1161px) {
   .projects .carousel .card {
@@ -723,6 +723,13 @@ section .title::after {
 .projects .card:hover p {
   border-bottom-color:  black;
 }
+.projects .card p {
+  border-bottom: 2px solid crimson;
+  margin-bottom: 10px;
+}
+.projects .card:hover p {
+  border-bottom-color:  black;
+}
 .owl-dots {
   text-align: center;
   margin-top: 20px;
@@ -743,6 +750,30 @@ section .title::after {
 .owl-dot.active,
 .owl-dot:hover {
   background: crimson !important;
+}
+
+.open-source {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.open-source a {
+  color: #fff;
+}
+.open-source i {
+  color: crimson;
+  font-size: 32px;
+  animation: arrow 1s linear infinite;
+}
+
+@keyframes arrow {
+  50% {
+    color: white;
+  }
+}
+
+.projects .title {
+  margin-bottom: 40px;
 }
 
 
