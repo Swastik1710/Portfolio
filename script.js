@@ -50,18 +50,11 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["3rd Year Undergrad", "Frontend Developer", "Flutter Developer"],
+        strings: [" a 3rd Year Undergrad", "a Full Stack Developer", "an Android Developer", "an Open Source Enthusiast"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-    });
-
-    // var typed = new Typed(".typing-2", {
-    //     strings: ["3rd Year Undergrad", "Frontend Developer", "Flutter Developer"],
-    //     typeSpeed: 100,
-    //     backSpeed: 60,
-    //     loop: true
-    // });      
+    });    
 
     // owl carousel script
     $('.carousel').owlCarousel({
@@ -94,3 +87,6 @@ $(document).ready(function () {
     }
 });
 
+$(window).on('load', function () {
+    $(".loader").hide();
+});
