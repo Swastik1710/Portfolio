@@ -88,5 +88,6 @@ $(document).ready(function () {
 });
 
 $(window).on('load', function () {
-    // $(".load").hide();
+    $(".load").hide();
+    $("html").css("overflow", "auto");
 });
