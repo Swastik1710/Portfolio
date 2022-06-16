@@ -1027,7 +1027,21 @@ section .title::after {
 .skills-icons:nth-child(12):hover h5::after {
   background: #f89820;
 }
-
+.skills-icons:nth-child(13):hover h5::after {
+  background: rgb(238, 56, 56);
+}
+.skills-icons:nth-child(14):hover h5::after {
+  background: green;
+}
+.skills-icons:nth-child(15):hover h5::after {
+  background: green;
+}
+.skills-icons:nth-child(16):hover h5::after {
+  background: red;
+}
+.skills-icons:nth-child(17):hover h5::after {
+  background: green;
+}
 
 /* contact section styling */
 .contact .title::after {
@@ -1278,6 +1292,9 @@ footer span a:hover {
   }
   .skills .skills-content .right {
     flex: 100%;
+  }
+  .skills-content {
+    margin-top: 20px;
   }
   .education .edu-content .column {
     width: 100%;
